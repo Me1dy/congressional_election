@@ -1,0 +1,7 @@
+.link {
+    background-color: cadetblue;
+}
+
+.link:hover {
+    color:rgb(188, 31, 31)
+}
