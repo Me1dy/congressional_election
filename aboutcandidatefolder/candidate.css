@@ -1,8 +1,10 @@
 .info {
     float:none;
+    padding: 100px;
 }
 
 body {
     display: flex;
     justify-content: center;
+    align-content: center;
 }
