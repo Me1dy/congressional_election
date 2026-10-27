@@ -14,3 +14,8 @@
 .link:hover {
     color:rgb(188, 31, 31)
 }
+
+.heads {
+    background-color: cornflowerblue;
+    color: bisque;
+}
