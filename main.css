@@ -64,7 +64,7 @@ div.flexc:hover {
   max-width: 220px;
   padding-top: 100px;
 }
-h3 {
+h3.meet {
     background-color: #d6b875;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -107,3 +107,58 @@ hr {
   background-color: d6b875
   
 }
+
+
+.resource-card {
+  background-color: rgb(36, 59, 82);
+  margin: 2em ;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgb(255, 179, 179, 0.09);
+  
+  color: #f3f0e8
+}
+
+/* =========================
+   BIO SECTION
+========================= */
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #101e30;
+  object-fit: cover;
+}
+
+.bio-text h1 {
+  margin-bottom: 0.2em;
+}
+
+.bio-text h4 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #243b52;
+}
+
+/* =========================
+   PROJECT LAYOUT
+========================= */
+.project {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+.pp {
+  color: #687687
+}
+
+
+
+
