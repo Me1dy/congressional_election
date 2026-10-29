@@ -86,7 +86,7 @@ div.flexc:hover {
 .link {
   max-width: 220px;
   padding-top: 100px;
-  font-family: popp
+  justify-content: left;
 }
 h3.meet {
     background-color: #d6b875;
@@ -94,6 +94,7 @@ h3.meet {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px
+    
 }
 .link a:hover::before{
         left:100%;
