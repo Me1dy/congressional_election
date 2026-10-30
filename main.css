@@ -49,6 +49,7 @@ body {
 
 .flexc:hover::before{
         left:100%;
+  
 }
 
 .flexc:hover{
@@ -86,7 +87,6 @@ div.flexc:hover {
 .link {
   max-width: 220px;
   padding-top: 100px;
-  justify-content: left;
 }
 h3.meet {
     background-color: #d6b875;
@@ -94,7 +94,6 @@ h3.meet {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px
-    
 }
 .link a:hover::before{
         left:100%;
@@ -172,12 +171,16 @@ hr {
   text-align: center;
 }
 
-.bio-pic img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+img {
   border: 3px solid #101e30;
   object-fit: cover;
+  transition: 0.5s;
+}
+
+img:hover{
+  Width: 270px;
+  height: 270px;
+
 }
 
 .bio-text h1 {
@@ -201,7 +204,6 @@ hr {
 .pp {
   color: #687687
 }
-
 
 
 
