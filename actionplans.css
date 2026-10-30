@@ -1,0 +1,158 @@
+body {
+  background-image: url("backgroundmain.jpg");
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+
+/* start of navbar and links in navbar */
+
+.navbar {
+  background-color: rgb(23,43,67);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  
+}
+
+.flexc {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 9px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px
+  
+ }
+
+.flexc {
+  background-color: rgb(23,43,67);
+  transition: 0.5s;
+}
+
+div.flexc:hover {
+  background-color: #d6b875;
+  color: #efece1;
+  transform:scale(1.05);
+
+}
+
+.flexc a {
+   color: #687687;
+   
+}
+
+.flexc a:hover {
+  color: black;
+  transform:scale(1.05);
+  
+}
+.flexc a:visited {
+  color: #687687;
+}
+
+.flexc a:active {
+  color: black;
+}
+/* navbar and links  */
+
+@keyframes fadeUp{
+        from{opacity:0; transform:translateY(30px);}
+        to{opacity:1; transform:translateY(0);}
+      }
+
+/*link of about candidate start of code*/
+
+.link {
+  max-width: 220px;
+  padding-top: 100px;
+}
+h3.meet {
+    background-color: #d6b875;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.link a:hover {
+    color: #435163;
+    transform:scale(1.05);
+}
+.link a {
+  color: black;
+}
+
+.link a:active {
+  color: black;
+}
+/*link of about candidate end of code*/
+
+
+
+
+
+
+hr {
+  border: inset 2px #d6b875
+  
+}
+
+
+.resource-card {
+  background-color: rgb(36, 59, 82, 0.8);
+  margin: 2em ;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgb(255, 179, 179, 0.09);
+  
+  color: #f3f0e8
+}
+
+/* =========================
+   BIO SECTION
+========================= */
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #101e30;
+  object-fit: cover;
+}
+
+.bio-text h1 {
+  margin-bottom: 0.2em;
+}
+
+.bio-text h4 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #243b52;
+}
+
+/* =========================
+   PROJECT LAYOUT
+========================= */
+.projects {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+.pp {
+  color: #687687
+}
+
