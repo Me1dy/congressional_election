@@ -10,6 +10,7 @@
 body {
   background-color: #101e30;
   font-family: 'Montserrat', Arial, sans-serif;
+  animation: gradientBG 12s ease infinite;
 }
 
 /* start of navbar and links in navbar */
