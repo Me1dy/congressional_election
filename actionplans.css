@@ -156,3 +156,8 @@ hr {
   color: #687687
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  
+}
