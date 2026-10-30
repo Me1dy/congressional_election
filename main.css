@@ -6,15 +6,11 @@
  @keyframes slideDown{
         from{transform:translateY(-100%); opacity:0;}
         to{transform:translateY(0); opacity:1;}
-      }
-
-
-
+}
 body {
   background-color: #101e30;
   font-family: 'Montserrat', Arial, sans-serif;
 }
-
 
 /* start of navbar and links in navbar */
 
@@ -87,6 +83,7 @@ div.flexc:hover {
 .link {
   max-width: 220px;
   padding-top: 100px;
+  
 }
 h3.meet {
     background-color: #d6b875;
@@ -102,7 +99,7 @@ h3.meet {
 .link a:hover {
     color: #435163;
     transform:translateY(-10px) scale(1.02);
-    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    box-shadow:0px 10px 10px rgba(0,0,0,0.2);
    
 }
 .link a {
@@ -171,17 +168,36 @@ hr {
   text-align: center;
 }
 
-img {
-  border: 3px solid #101e30;
-  object-fit: cover;
-  transition: 0.5s;
-}
 
-img:hover{
-  Width: 270px;
-  height: 270px;
 
-}
+
+/*====== IMAGES OF INTEREST GROUPS TRANSITION XY==== */
+img{
+    
+        border: 3px solid #172b43;
+        transition:0.3s;
+        box-shadow: 0px 5px 5px black;
+       
+      }
+
+img::before{
+        
+        background:linear-gradient(120deg, transparent, rgb(186, 241, 242,0.2), transparent);
+        transition:0.5s;
+      }
+
+      img:hover::before{
+        left:100%;
+      }
+
+      img:hover{
+        transform:translateY(-10px) scale(1.02);
+        box-shadow:0 20px 25px rgba(0,0,0,0.2);
+      }
+
+
+
+
 
 .bio-text h1 {
   margin-bottom: 0.2em;
@@ -204,6 +220,3 @@ img:hover{
 .pp {
   color: #687687
 }
-
-
-
