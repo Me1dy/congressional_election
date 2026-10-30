@@ -8,8 +8,20 @@ body {
 
 /* start of navbar and links in navbar */
 
+*{
+        box-sizing:border-box;
+        scroll-behavior:smooth;
+}
+ @keyframes slideDown{
+        from{transform:translateY(-100%); opacity:0;}
+        to{transform:translateY(0); opacity:1;}
+}
+
+
+/* start of navbar and links in navbar */
+
 .navbar {
-  background-color: rgb(23,43,67);
+  background-color: #172b43;
   padding: 1em 2em;
   display: flex;
   flex-direction: row;
@@ -21,27 +33,36 @@ body {
 }
 
 .flexc {
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 9px;
   font-family: 'Montserrat', Arial, sans-serif;
+  text-decoration: none;
   font-weight: bold;
-  font-size: 20px
-  
+  font-size: 20px;
  }
 
 .flexc {
-  background-color: rgb(23,43,67);
+  background-color: #172B43;
   transition: 0.5s;
+}
+
+
+.flexc:hover::before{
+        left:100%;
+  
+}
+
+.flexc:hover{
+        transform:translateY(-10px) scale(1.02);
+        box-shadow:0 10px 25px rgba(0,0,0,0.2);
+   
 }
 
 div.flexc:hover {
   background-color: #d6b875;
   color: #efece1;
-  transform:scale(1.05);
-
 }
 
 .flexc a {
@@ -51,7 +72,6 @@ div.flexc:hover {
 
 .flexc a:hover {
   color: black;
-  transform:scale(1.05);
   
 }
 .flexc a:visited {
