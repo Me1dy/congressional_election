@@ -69,10 +69,10 @@ div.flexc:hover {
 }
 
 hr {
-  border: none;
-  height: 2px;
-  background-color: #d5b875;
+  border: inset 2px #d6b875
+  
 }
+
 
 .grey {
   color: #687687;

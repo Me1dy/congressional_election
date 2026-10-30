@@ -101,9 +101,7 @@ h3.meet {
 
 
 hr {
-  border: none;
-  height: 2px;
-  background-color: d6b875
+  border: inset 2px #d6b875
   
 }
 
