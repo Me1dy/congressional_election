@@ -196,7 +196,46 @@ img::before{
       }
 
 
+/*===== GALLERY=====*/
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px
 
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #d6b875;
+  width: 300px;
+  height: 300px
+  
+
+}
+
+div.gallery-item:hover {
+  border: 1px solid;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+  color: #f3f0e8
+}
+
+div.gallery-item div.desc {
+  
+  padding: 10px;
+  text-align: center;
+  background-color: #d6b875;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px
+  
+}
+
+/* end of GALLERY */
 
 
 .bio-text h1 {
