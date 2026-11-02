@@ -168,7 +168,7 @@ hr {
 }
 
 .bio img {
-  height: 210px;
+  height: 250px;
   width: 210px;
   transition: 0.8s;
   border-radius: 50%;
@@ -222,7 +222,10 @@ div.gallery-item div.desc {
 }
 
 
-
+.main h4 {
+  display: flex;
+  justify-content: center;
+}
 
 /*====== IMAGES OF INTEREST GROUPS TRANSITION XY==== */
 img{
