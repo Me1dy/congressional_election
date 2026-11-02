@@ -168,8 +168,8 @@ hr {
 }
 
 .bio img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   transition: 0.8s;
   border-radius: 50%;
 }
