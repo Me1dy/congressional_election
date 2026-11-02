@@ -172,13 +172,9 @@ hr {
 }
 .bio img {
   transition: 0.8s;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
-.bio img:hover {
-     height: 110px;
-     width: 110px;
-}
 
 
 div.gallery {
