@@ -82,8 +82,8 @@ div.gallery-item:hover {
 }
 
 div.gallery-item img {
-  width: 100%;
-  height: auto;
+  height:fit-content;
+  width:fit-content;
   color: #f3f0e8;
 }
 
