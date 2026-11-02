@@ -171,6 +171,7 @@ hr {
 }
 .bio img {
   transition: 0.8s;
+  border-radius: 50px;
 }
 
 .bio img:hover {
