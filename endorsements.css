@@ -71,8 +71,8 @@ div.gallery {
 div.gallery-item {
   margin: 5px;
   border: 1px solid #d6b875;
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   
 
 }
@@ -92,7 +92,7 @@ div.gallery-item div.desc {
   padding: 10px;
   text-align: center;
   background-color: #d6b875;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
   
