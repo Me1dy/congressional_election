@@ -164,7 +164,7 @@ hr {
 .bio {
   display: flex;
   justify-content: center;
-  border: 1px solid;
+  
 }
 
 .bio img {
@@ -177,6 +177,7 @@ hr {
 .bio img {
   transition: 0.8s;
   border-radius: 50%;
+  border: 1px solid;
 }
 
 
