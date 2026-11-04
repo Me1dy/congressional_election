@@ -63,7 +63,7 @@ div.flexc:hover {
 div.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 50px;
 
 }
@@ -71,8 +71,7 @@ div.gallery {
 div.gallery-item {
   margin: 5px;
   border: 1px solid #d6b875;
-  width: 300px;
-  height: 300px;
+
   
 }
 
@@ -91,7 +90,7 @@ div.gallery-item div.desc {
   padding: 10px;
   text-align: center;
   background-color: #d6b875;
-  padding-top: 80px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
   
