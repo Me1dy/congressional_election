@@ -34,6 +34,17 @@ body {
   transition: 0.5s;
 }
 
+
+.flexc:hover::before{
+        left:100%;
+  
+}
+.flexc:hover{
+        transform:translateY(-10px) scale(1.02);
+        box-shadow:0 10px 25px rgba(0,0,0,0.2);
+   
+}
+
 div.flexc:hover {
   background-color: #d6b875;
   color: #efece1;

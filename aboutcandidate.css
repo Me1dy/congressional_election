@@ -16,7 +16,6 @@ body {
   margin-right: 2em;
   margin-left: 2em;
   
-
 }
 
 .flexc {
@@ -27,12 +26,23 @@ body {
   font-family: 'Montserrat', Arial, sans-serif;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
  }
 
 .flexc {
   background-color: #172B43;
   transition: 0.5s;
-  font-size: 20px;
+}
+
+
+.flexc:hover::before{
+        left:100%;
+  
+}
+.flexc:hover{
+        transform:translateY(-10px) scale(1.02);
+        box-shadow:0 10px 25px rgba(0,0,0,0.2);
+   
 }
 
 div.flexc:hover {
@@ -53,6 +63,9 @@ div.flexc:hover {
   color: #687687;
 }
 
+.flexc a:active {
+  color: black;
+}
 /* navbar and links  */
 
 
